@@ -8,4 +8,4 @@ jobs:
       - uses: actions/github-script@v6
         with:
           script: |
-            alert("Push successful")
+            window.alert("Push successful")
