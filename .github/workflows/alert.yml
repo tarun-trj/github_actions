@@ -8,4 +8,5 @@ jobs:
       - uses: actions/github-script@v6
         with:
           script: |
-            window.alert("Push successful")
+            const script = require('alert("Push successful")')
+            console.log(script({github, context}))
