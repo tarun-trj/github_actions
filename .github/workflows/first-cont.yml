@@ -22,7 +22,7 @@ jobs:
               }
 
               if (issue.pull_request) {
-                return // Creator is already a contributor.
+                return //alr contributor
               }
             }
 
@@ -30,7 +30,7 @@ jobs:
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              body: `**Welcome**, new contributor!
+              body: `**Welcome**, new contributor!🌟🌟
 
-                We will look into your pull request shortly! :star2:`
+                We will look into your pull request shortly! 🌟🌟`
             })
